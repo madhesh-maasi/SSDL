@@ -1,0 +1,52 @@
+.inputSection {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0px;
+  label {
+    width: 25%;
+  }
+  .colon {
+    width: 5%;
+  }
+  .fileBtn {
+    // background-color: #dcdcdc;
+    padding: 5px 0px;
+    width: 70%;
+    border-radius: 5px;
+    .fileSelectionBtn::-webkit-file-upload-button {
+      background-color: #666666;
+      color: #fff;
+      border: none;
+      height: 30px;
+      margin: 0px 10px;
+      margin-left: 0;
+      border-radius: 4px;
+    }
+  }
+}
+.btnSection {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin: 20px 0px 0px 10px;
+
+  .saveBtn {
+    padding: 5px 10px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+  }
+  .CancelBtn {
+    padding: 7px 10px;
+    border: none;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+  }
+}

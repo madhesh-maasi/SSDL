@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ssdl-client-side-solution",
+    "id": "c49f593a-e3c7-4ba0-be2f-b34f4cc0ba08",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SSDL description"
+      },
+      "longDescription": {
+        "default": "SSDL description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ssdl Feature",
+        "description": "The feature that activates elements of the ssdl solution.",
+        "id": "4dde06c5-fc54-47b6-9a8d-e6a3467fac48",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": ["elements.xml"],
+          "elementFiles": ["schema.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ssdl.sppkg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "ssdl",
+    "libraryId": "c49f593a-e3c7-4ba0-be2f-b34f4cc0ba08",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SSDL",
+    "solutionShortDescription": "SSDL description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
