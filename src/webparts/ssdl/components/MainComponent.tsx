@@ -188,7 +188,7 @@ const MainComponent = (props: any) => {
       .getByTitle("IntranetConfig")
       .items.select("*, Url")
       // .expand("Url")
-      .top(6)
+      .top(100)
       .get()
       .then((res) => {
         let tempArr: IData[] = [];
@@ -230,7 +230,7 @@ const MainComponent = (props: any) => {
   }, []);
 
   return (
-    <div>
+    <div className="Intranet_QuickLinks">
       <div
         style={{
           width: "100%",
@@ -319,7 +319,8 @@ const MainComponent = (props: any) => {
                         height: "100%",
                         margin: 0,
                         fontSize: "30px",
-                        //   textAlign: "center",
+                        textAlign: "center",
+                        maxWidth: "90%",
                         color: "#fff",
                         textShadow: "1px 1px 3px #000",
                       }}
